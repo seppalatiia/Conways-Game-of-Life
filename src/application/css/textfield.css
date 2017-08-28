@@ -1,0 +1,14 @@
+.text-field, 
+.text-field:focused {
+	-fx-background-color: linear-gradient(#111111, #222222);
+	-fx-text-fill: white;
+	-fx-background-insets: 0;
+	
+	-fx-border-style: none;
+	-fx-background-radius: 10px;
+	
+	-fx-font-size: 14px;
+}
+.text-field:focused {
+	-fx-effect: innershadow(gaussian, #8A0707, 7, 0.3, 1, 1) ;
+}

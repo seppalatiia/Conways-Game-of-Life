@@ -1,0 +1,13 @@
+.pane {
+	-fx-background-color: black;
+	-fx-effect: dropshadow(one-pass-box, #8A0707, 5, 0.3, 1, 1) ;
+}
+.label {
+	-fx-text-fill: #FFFFFF;
+	-fx-min-width: 60px;
+	-fx-font-size: 14px;
+	-fx-padding: 5px;
+}
+.sidebar {
+	-fx-padding: 5px;
+}

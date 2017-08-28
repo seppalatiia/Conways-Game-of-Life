@@ -1,0 +1,21 @@
+.button {
+	-fx-text-fill: white;
+	-fx-font-size: 14px;
+	
+	-fx-background-color: black;
+	-fx-background-color: linear-gradient(#8A0707, #000000);
+	-fx-background-radius: 2;
+}
+.button > .glyph-icon{
+	-fx-fill: white;
+}
+.button:hover{
+	-fx-background-color: linear-gradient(derive(#8A0707, 40%), #000000);
+	-fx-cursor:hand;
+}
+.button.no-background {
+	-fx-background-color: none;
+}
+.button.no-background:hover{
+	-fx-opacity: 80%;
+}

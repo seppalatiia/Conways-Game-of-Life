@@ -1,0 +1,23 @@
+.check-box {
+	-fx-text-fill: white;
+	-fx-padding: 5px;
+	-fx-font-size: 14px;
+}
+.check-box .box {
+	-fx-background-color: linear-gradient(#8A0707, #000000);
+}
+.check-box .text {
+	-fx-text-fill: -fx-text-background-color;
+	-fx-font-size: 14px;
+}
+.check-box:selected .mark {
+	-fx-background-color:white ;
+}
+.check-box .mark {
+	-fx-text-fill: white;
+}
+.check-box:hover{
+	-fx-cursor:hand;
+}.check-box:hover > .box {
+	-fx-background-color: linear-gradient(derive(#8A0707, 40%), #000000);
+}

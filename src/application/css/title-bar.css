@@ -1,0 +1,14 @@
+.tool-bar.title-bar {
+	-fx-background-color: linear-gradient(#8A0707, #000000);
+	-fx-padding: 0;
+}
+.button.title-bar{
+	-fx-background-color: transparent;
+	-fx-text-fill: white;
+}
+.button.title-bar > .glyph-icon{
+	-fx-fill: white;
+}
+.label.title-bar{
+	-fx-padding: 10px;
+}
